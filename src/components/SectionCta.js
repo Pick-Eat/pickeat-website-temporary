@@ -16,15 +16,15 @@ export default class SectionCta extends React.Component {
                     <h2 className="block-title">{_.get(section, 'title', null)}</h2>
                     )}
                     {_.get(section, 'subtitle', null) && (
-                    <p className="block-copy">
+                    <p className="block-subtitle">
                       {htmlToReact(_.get(section, 'subtitle', null))}
                     </p>
                     )}
                   </div>
                   {_.get(section, 'actions', null) && (
-                  <div className="cell block-buttons">
+                  <p className="cell block-buttons">
                     <CtaButtons {...this.props} actions={_.get(section, 'actions', null)} />
-                  </div>
+                  </p>
                   )}
                 </div>
               </div>

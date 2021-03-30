@@ -1,7 +1,6 @@
 const path = require("path");
-const fs = require("fs");
 const {createFilePath} = require("gatsby-source-filesystem");
-const _ = require("lodash");
+const _ = require('lodash');
 
 
 function findFileNode({node, getNode}) {
@@ -112,19 +111,8 @@ exports.createPages = ({graphql, getNode, actions, getNodesByType}) => {
         nodes.forEach(graphQLNode => {
             const node = getNode(graphQLNode.id);
             const url = node.fields.url;
-            
             const template = node.frontmatter.template;
-            if (!template) {
-                console.error(`Error: undefined template for ${url}`);
-                return;
-            }
-
             const component = path.resolve(`./src/templates/${template}.js`);
-            if (!fs.existsSync(component)) {
-                console.error(`Error: component "src/templates/${template}.js" missing for ${url}`);
-                return;
-            }
-
             const existingPageNode = _.get(sitePageNodesByPath, url);
 
             const page = {

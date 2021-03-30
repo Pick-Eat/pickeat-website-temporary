@@ -22,18 +22,18 @@ export default class SectionPosts extends React.Component {
                 )}
               </div>
               <div className="inner">
-                <div className="grid post-feed">
+                <div className="post-feed">
                   {_.map(recent_posts, (post, post_idx) => (
-                  <article key={post_idx} className="cell post">
-                    <div className="card">
+                  <article key={post_idx} className="post post-card">
+                    <div className="post-card-inside">
                       {_.get(post, 'frontmatter.thumb_image', null) && (
-                      <Link className="post-thumbnail" to={withPrefix(_.get(post, 'url', null))}>
-                        <img src={withPrefix(_.get(post, 'frontmatter.thumb_image', null))} alt={_.get(post, 'frontmatter.thumb_image_alt', null)} />
+                      <Link className="post-card-thumbnail" to={withPrefix(_.get(post, 'url', null))}>
+                        <img className="thumbnail" src={withPrefix(_.get(post, 'frontmatter.thumb_image', null))} alt={_.get(post, 'frontmatter.title', null)} />
                       </Link>
                       )}
-                      <div className="post-body">
+                      <div className="post-card-content">
                         <header className="post-header">
-                          <h3 className="post-title"><Link to={withPrefix(_.get(post, 'url', null))}>{_.get(post, 'frontmatter.title', null)}</Link></h3>
+                          <h3 className="post-title"><Link to={withPrefix(_.get(post, 'url', null))} rel="bookmark">{_.get(post, 'frontmatter.title', null)}</Link></h3>
                         </header>
                         <div className="post-excerpt">
                           <p>{_.get(post, 'frontmatter.excerpt', null)}</p>

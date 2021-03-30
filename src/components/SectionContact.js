@@ -2,7 +2,6 @@ import React from 'react';
 import _ from 'lodash';
 
 import {htmlToReact, markdownify} from '../utils';
-import FormField from './FormField';
 
 export default class SectionContact extends React.Component {
     render() {
@@ -21,20 +20,27 @@ export default class SectionContact extends React.Component {
               </div>
               <div className="block-content inner-medium">
                 {markdownify(_.get(section, 'content', null))}
-                <form name={_.get(section, 'form_id', null)} id={_.get(section, 'form_id', null)}{...(_.get(section, 'form_action', null) ? ({action: _.get(section, 'form_action', null)}) : null)} method="POST" data-netlify="true" data-netlify-honeypot={_.get(section, 'form_id', null) + '-bot-field'}>
-                  <div className="screen-reader-text">
-                    <label id={_.get(section, 'form_id', null) + '-honeypot-label'} htmlFor={_.get(section, 'form_id', null) + '-honeypot'}>Don't fill this out if you're human:</label>
-                    <input aria-labelledby={_.get(section, 'form_id', null) + '-honeypot-label'} id={_.get(section, 'form_id', null) + '-honeypot'} name={_.get(section, 'form_id', null) + '-bot-field'} />
-                  </div>
-                  <input aria-labelledby={_.get(section, 'form_id', null) + '-honeypot-label'} type="hidden" name="form-name" value={_.get(section, 'form_id', null)} />
-                  {_.map(_.get(section, 'form_fields', null), (field, field_idx) => (
-                  <div key={field_idx} className="form-row">
-                    <FormField {...this.props} field={field} section={section} />
-                  </div>
-                  ))}
-                  <div className="form-row form-submit">
-                    <button type="submit" className="button">{_.get(section, 'submit_label', null)}</button>
-                  </div>
+                <form name="contactForm" method="POST" data-netlify-honeypot="bot-field" data-netlify="true" id="contact-form"
+                  className="contact-form">
+                  <p className="screen-reader-text">
+                    <label id="contact-form-bot-label">Don't fill this out if you're human: <input name="bot-field" aria-labelledby="contact-form-bot-label" /></label>
+                  </p>
+                  <p className="form-row">
+                    <label id="contact-form-name-label" htmlFor="contact-form-name" className="form-label">Name</label>
+                    <input type="text" name="name" id="contact-form-name" aria-labelledby="contact-form-name-label" className="form-input"/>
+                  </p>
+                  <p className="form-row">
+                    <label id="contact-form-email-label" htmlFor="contact-form-email" className="form-label">Email address</label>
+                    <input type="email" name="email" id="contact-form-email" aria-labelledby="contact-form-email-label" className="form-input"/>
+                  </p>
+                  <p className="form-row">
+                    <label id="contact-form-message-label" htmlFor="contact-form-message" className="form-label">Message</label>
+                    <textarea name="message" id="contact-form-message" aria-labelledby="contact-form-message-label" className="form-textarea" rows="7" />
+                  </p>
+                  <input type="hidden" aria-label="contact-form-name" name="form-name" value="contactForm" />
+                  <p className="form-row form-submit">
+                    <button type="submit" className="button">Send Message</button>
+                  </p>
                 </form>
               </div>
             </section>

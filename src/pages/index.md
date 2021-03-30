@@ -1,132 +1,155 @@
 ---
 title: Home
 sections:
-  - section_id: hero
-    type: section_hero
-    image: images/hero.png
-    image_alt: App preview
-    title: This Is A Big Hero Headline
+  - type: section_hero
+    title: Mangia nel tuo ristorante preferito con uno sconto fisso
+    section_id: hero
     content: >-
-      Azimuth is the perfect theme for developers, designers and entrepreneurs
-      who need a sleek, modern SaaS site.
-    actions:
-      - label: Learn More
-        url: /features
-        style: primary
-  - section_id: features
-    type: section_features
-    background: gray
-    title: Features
+      Sai già cosa vuoi mangiare? Ordina in anticipo nel tuo ristorante
+      preferito e noi ti garantiamo uno sconto fisso!
+    actions: []
+    image: /images/fierce-spinach.svg
+  - type: section_features
+    title: Scopri perché ordinare con PickEat
+    section_id: features
     subtitle: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
-      quis lorem malesuada luctus.
+      PickEat è sempre la scelta giusta quando vuoi gustarti del buon cibo a
+      casa o al ristorante
+    background: gray
     features:
-      - title: The Best Feature of Your Services
-        image: images/feature1.png
-        image_alt: App preview on a phone and tablet
-        content: >-
-          Nam pulvinar ante eu ultricies volutpat. Aenean hendrerit, eros sed
-          aliquet luctus, lorem risus volutpat dolor, nec dignissim diam neque
-          consequat ex.
+      - type: feature_item
+        title: Scegli tra i nostri ristoranti e consulta i menù
+        content: |-
+          Cerca il tuo ristorante preferito su **PickEat** e consulta i
+          **menù** dove e quando vuoi, anche una volta arrivato nel
+          locale. Se non è presente puoi sempre contattarlo e farlo
+          iscrivere (Se si iscriverà con il tuo codice potrai ricevere un
+          ulteriore sconto sul tuo prossimo ordine!)
+        image: /images/undraw_online_groceries_a02y.svg
         actions:
-          - label: Learn More
-            url: /features
-            style: secondary
-            has_icon: true
-            icon: arrow-right
-            icon_position: right
-      - title: Awesome Feature of Your Services
-        image: images/feature2.png
-        image_alt: App users welcoming a new member
-        content: >-
-          Etiam vel urna sed massa egestas vulputate eu a velit. Sed ut nisl nec
-          sapien interdum luctus. Cras rhoncus condimentum metus sit amet
-          auctor.
+          - type: action
+            label: Scopri i ristoranti
+            url: /registrati
+      - type: feature_item
+        title: Prenota e preordina online
+        content: |-
+          Con PickEat basta **un click** per prenotare nel tuo ristorante
+          preferito. Effettua il preordine, riduci i tempi di attesa e
+          preparati a gustare i tuoi piatti all’arrivo al ristorante.
+        image: /images/undraw_Booking_re_gw4j.svg
         actions:
-          - label: Learn More
-            url: /features
-            style: secondary
-            has_icon: true
-            icon: arrow-right
-            icon_position: right
-      - title: Cool Feature of Your Services
-        image: images/feature3.png
-        image_alt: App user profile preview
-        content: >-
-          In ante enim, lobortis quis congue vel, finibus sit amet mi. Aenean
-          quis venenatis sem. Proin eget massa id metus eleifend maximus sit
-          amet nec urna.
+          - type: action
+            label: Scopri come prenotare
+            url: /registrati
+      - type: feature_item
+        title: Usufruisci dei vantaggi PickEat
+        content: |-
+          Con PickEat ti garantiamo uno **sconto minimo del 10%**
+          ogni volta che effettui un preordine; Inoltre, con
+          l'innovativo **Sconto Bolt**, potrai ricevere uno sconto ulteriore
+          se garantisci di liberare il tavolo in 30 minuti.
+        image: /images/undraw_having_fun_iais.svg
         actions:
-          - label: Learn More
-            url: /features
-            style: secondary
-            has_icon: true
-            icon: arrow-right
-            icon_position: right
-  - section_id: reviews
-    type: section_reviews
+          - type: action
+            label: Scopri di più
+            url: /registrati
+  - type: section_reviews
+    title: Il Nostro Team
+    section_id: reviews
+    subtitle: Perché scegliere PickEat
     background: white
-    title: Testimonials
-    subtitle: >-
-      Aliquam malesuada ligula eget est fringilla blandit. Integer finibus
-      semper libero id sodales.
     reviews:
-      - author: Eric Widget
-        avatar: images/review1.jpg
-        avatar_alt: Eric Widget's photo
+      - type: review_item
+        author: Giacomo Perazzo
         content: >-
-          Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis
-          nunc non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
-      - author: Parsley Montana
-        avatar: images/review2.jpg
-        avatar_alt: Parsley Montana's photo
+          Perché PickEat, in questo momento di difficoltà, crede che i giovani e
+          l'innovazione tecnologica saranno le nuove gambe della tavola
+          Italiana.
+        avatar: /images/purple-hickory.jpg
+      - type: review_item
+        author: Enzo Ubaldo Petrocco
+        content: Perchè credo nel progresso e voglio farne parte.
+        avatar: /images/FotoEnzoPerPEQuadrata.jpg
+      - type: review_item
+        author: Christian Paesante
+        avatar: /images/FotoProfilo.jpg
         content: >-
-          Sed laoreet magna commodo libero euismod sodales. Nunc ac libero
-          convallis, interdum ligula vel, pretium diam. Integer commodo sem at
-          dui sollicitudin, vel posuere justo laoreet.
-      - author: Jonquil Von Haggerston
-        avatar: images/review3.jpg
-        avatar_alt: Jonquil Von Haggerston's photo
+          Perché PickEat è la soluzione studiata per consentire a migliaia di
+          ristoranti di continuare a lavorare anche durante un Lockdown.
+      - author: Gabriele Gigante
         content: >-
-          Integer consectetur purus neque, ac porttitor enim convallis vitae.
-          Interdum et malesuada fames ac ante ipsum primis in faucibus.
-  - section_id: call-to-action
-    type: section_cta
-    title: This Is Call To Action Block!
-    subtitle: This is an optional description for the call to action block.
+          Perchè PickEat è l'unica applicazione che viene incontro sia ai
+          problemi dei ristoratori che alla convenienza dei clienti.
+        type: review_item
+        avatar: /images/picPickeat.jpeg
+      - author: Nicholas Sollazzo
+        content: >-
+          Perché PickEat è la risposta Made in Italy fatta su misura per i
+          ristoratori Italiani.
+        type: review_item
+        avatar: /images/Nick.png
+  - type: section_cta
+    title: PickEat aiuta clienti e ristoratori
+    section_id: call-to-action
+    subtitle: Entra a far parte anche tu della rivoluzione
     actions:
-      - label: Get Started
+      - type: action
+        label: Registrati Ora
         url: /signup
-        style: primary
-  - section_id: recent-posts
-    type: section_posts
+        primary: true
+  - title: Contattaci
+    section_id: lorem-ipsum
+    subtitle: ''
+    content: ''
     background: gray
-    title: Latest Posts
-seo:
-  title: Stackbit Azimuth Theme
-  description: The preview of the Azimuth theme
-  extra:
-    - name: 'og:type'
-      value: website
-      keyName: property
-    - name: 'og:title'
-      value: Stackbit Azimuth Theme
-      keyName: property
-    - name: 'og:description'
-      value: The preview of the Azimuth theme
-      keyName: property
-    - name: 'og:image'
-      value: images/hero.png
-      keyName: property
-      relativeUrl: true
-    - name: 'twitter:card'
-      value: summary_large_image
-    - name: 'twitter:title'
-      value: Stackbit Azimuth Theme
-    - name: 'twitter:description'
-      value: The preview of the Azimuth theme
-    - name: 'twitter:image'
-      value: images/hero.png
-      relativeUrl: true
+    type: section_contact
+  - title: Frequently Asked Question
+    section_id: faq
+    subtitle: Le domande che ci vengono fatte più frequentemente
+    background: gray
+    faq_items:
+      - question: Come faccio ad ordinare?
+        answer: >-
+          1.  Apri l’app
+
+          2. Seleziona il ristorante in cui vorresti andare
+
+          3. **Pre-ordina** scegliendo cosa vuoi mangiare
+
+          4. inserisci data e ora d'arrivo
+
+          5. Arriva al ristornate gustati il tuo pasto!
+
+
+          Potrai anche decidere di prenotare senza il pre-order (rinunciando ai
+          nostri sconti), oppure decidere di aggiungere altro al tuo ordine una
+          volta al ristorante.
+        type: faq_item
+      - question: Posso annullare la prenotazione?
+        answer: >-
+          La prenotazione è **annullabile gratuitamente** per un entro un
+          **limite di tempo** deciso dal ristoratore.
+
+          Potrai annullare la prenotazione anche **superato l’intervallo** di
+          tempo ma questo influirà sulla **reputazione del tuo account** che
+          potrai riguadagnare con il tempo.
+
+          PickEat cercherà di tutelare i ristoratori, già in  difficoltà a causa
+          delle restrizioni, per questo crediamo che comprenderai la nostra
+          protezione nei loro confronti. Aiutaci anche tu a risollevare il mondo
+          della ristorazione!
+        type: faq_item
+      - question: Come funziona il servizio Bolt?
+        answer: >-
+          Il **servizio Bolt** consiste in uno **sconto del 30%*** per i clienti
+          che effettueranno il **pre-order** e che garantiranno una **permanenza
+          massima al tavolo di 30 minuti**. Utile se si hanno i minuti contati
+          (come durante le pause pranzo) o semplicemente se si è di fretta.
+
+
+          *Sarà il ristoratore a indicare lo sconto che verrà offerto al cliente
+          da un minimo del 15%.
+        type: faq_item
+    type: section_faq
 template: landing
 ---

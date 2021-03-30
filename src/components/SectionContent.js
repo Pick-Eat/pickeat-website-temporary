@@ -13,7 +13,7 @@ export default class SectionContent extends React.Component {
                 <div className="grid">
                   {_.get(section, 'image', null) && (
                   <div className="cell block-preview">
-                    <img src={withPrefix(_.get(section, 'image', null))} alt={_.get(section, 'image_alt', null)} />
+                    <img src={withPrefix(_.get(section, 'image', null))} alt={_.get(section, 'title', null)} />
                   </div>
                   )}
                   <div className="cell block-content">
@@ -24,9 +24,9 @@ export default class SectionContent extends React.Component {
                       {markdownify(_.get(section, 'content', null))}
                     </div>
                     {_.get(section, 'actions', null) && (
-                    <div className="block-buttons">
+                    <p className="block-buttons">
                       <CtaButtons {...this.props} actions={_.get(section, 'actions', null)} />
-                    </div>
+                    </p>
                     )}
                   </div>
                 </div>

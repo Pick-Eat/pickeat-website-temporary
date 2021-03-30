@@ -1,69 +1,93 @@
 ---
 title: Pricing
 sections:
-  - section_id: pricing
-    type: section_pricing
-    background: gray
-    title: Pricing Plans
+  - type: section_pricing
+    title: Pricing
+    section_id: pricing
     subtitle: You can have a separate pricing page or list everything on the home page.
+    background: gray
     pricing_plans:
-      - title: Basic
-        subtitle: For small businesses
-        price: $5/m
-        details: |-
-          * Lorem ipsum dolor sit amet
-          * Mauris a mi tincidunt
-          * Suspendisse ut lacus
-          * Etiam eget dui a augue
+      - type: pricing_plan
+        title: Basic
+        price: '0,30 €*'
+        details: >-
+          * Prenotazioni online
+
+          * Ordini in anticipo 
+
+          * Menù digitale
+
+          * Ordine dal tavolo
+
+          * 2 dispositivi per ricevere ordini
+
+          * Azioni base sugli ordini (Ordinato, accomodato, consegnato, da
+          pagare)
+
+
+          (*) le commissioni si applicano a coperto
         actions:
-          - label: Order Now
+          - type: action
+            label: Order Now
             url: /signup
-            style: secondary
-      - title: Professional
-        subtitle: For medium-sized businesses
-        price: $49/m
+      - type: pricing_plan
+        title: Professional
+        price: '9,99 €/m'
         details: |-
-          * Curabitur non nunc mollis
-          * Duis a purus nec ligula pellentesque dolor
-          * Pellentesque sit amet
-          * Fusce tempus mi vitae luctus
-          * Nullam sollicitudin ante
+          * Piano Basic
+          * Gestione ordini d'asporto
+          * 10 dispositivi per ricevere ordini
+          * Gestione ruoli (Gestore, caposala, cameriere, cucina, rider…)
+          * Dashbord analisi andamento ristorante
+
+          * *Commissione di 0,30 € a coperto/utente*
+          * *Commissione del 5% sull’asporto*
         highlight: true
         actions:
-          - label: Order Now
+          - type: action
+            label: Order Now
             url: /signup
-            style: primary
-      - title: Enterprise
-        subtitle: For very large businesses
-        price: $149/m
+            primary: true
+      - type: pricing_plan
+        title: Enterprise
+        price: '69,90 €/m'
         details: |-
-          * Vestibulum non eros quis
-          * Aenean iaculis lorem
-          * Mauris eleifend sapien
-          * Phasellus lobortis risus laoreet quam
+          * Professional
+          * Dispositivi illimitati per ricevere ordini
+          * Gestionale completo ordini
+          * Gestione sala
+          * Gestione cucina
+          * Gestione personale (calendario turni)
+          * Suggerimento tecniche di marketing in Dashboard
+
+          * *Commissione di 0,30 € a coperto/utente*
+          * *20% di sconto sul pagamento annuale*
         actions:
-          - label: Order Now
+          - type: action
+            label: Order Now
             url: /signup
-            style: secondary
-  - section_id: faq
-    type: section_faq
-    background: gray
+  - type: section_faq
     title: Frequently Asked Questions
+    section_id: faq
     subtitle: 'Phasellus luctus laoreet arcu, vel porta metus imperdiet sit amet.'
+    background: gray
     faq_items:
-      - question: Mauris ut tellus id arcu sagittis lacinia quis vel justo?
+      - type: faq_item
+        question: Mauris ut tellus id arcu sagittis lacinia quis vel justo?
         answer: >-
           Ut cursus, nunc vitae hendrerit viverra, massa ipsum congue quam, sed
           tempus mauris lacus sit amet nibh. Curabitur laoreet est maximus
           mollis feugiat. Praesent nibh libero, placerat et justo at, luctus
           tristique enim. Pellentesque habitant morbi tristique senectus et
           netus et malesuada fames ac turpis egestas.
-      - question: Aliquam eget purus ante?
+      - type: faq_item
+        question: Aliquam eget purus ante?
         answer: >-
           Nunc sollicitudin libero tincidunt felis pretium, consectetur aliquam
           eros placerat. Sed neque neque, bibendum a pulvinar id, pellentesque
-          eget velit.
-      - question: Sed scelerisque in ipsum eu sollicitudin?
+          eget velit. 
+      - type: faq_item
+        question: Sed scelerisque in ipsum eu sollicitudin?
         answer: >-
           Nullam quis ultrices ipsum. Integer eleifend laoreet quam, ac
           dignissim nisi mollis eget. Ut vitae nisi sit amet nisi suscipit
@@ -72,24 +96,5 @@ sections:
           luctus in ipsum. Nunc pellentesque mi vel dui vulputate, a lobortis
           lacus venenatis. Phasellus pellentesque dolor id feugiat faucibus.
           Etiam vehicula nunc velit, in consequat nisl feugiat nec.
-seo:
-  title: Pricing
-  description: This is the pricing page
-  extra:
-    - name: 'og:type'
-      value: website
-      keyName: property
-    - name: 'og:title'
-      value: Pricing
-      keyName: property
-    - name: 'og:description'
-      value: This is the pricing page
-      keyName: property
-    - name: 'twitter:card'
-      value: summary_large_image
-    - name: 'twitter:title'
-      value: Pricing
-    - name: 'twitter:description'
-      value: This is the pricing page
 template: landing
 ---

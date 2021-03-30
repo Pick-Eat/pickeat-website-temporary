@@ -1,43 +1,13 @@
 ---
-title: A Guide To User Journey Mapping
-subtitle: >-
-  Praesent ut cursus enim, sit amet dictum turpis. Etiam justo orci, consectetur
-  aliquet rhoncus sed, hendrerit vel odio.
-excerpt: >-
-  Praesent ut cursus enim, sit amet dictum turpis. Etiam justo orci, consectetur
-  aliquet rhoncus sed, hendrerit vel odio.
-author: src/data/authors/jane-doe.yaml
+title: 5 Modi Efficaci per Ridurre i Costi del tuo Ristorante
+subtitle: ''
 date: '2019-03-27'
-thumb_image: images/10_thumb.jpg
-thumb_image_alt: Business people in a meeting
+author: src/data/authors/jane-doe.yaml
+excerpt: >-
+  5 semplici ed efficaci modi che ogni ristoratore può adottare oggi per ridurre
+  significativamente i costi del proprio ristorante.
 image: images/10.jpg
-image_alt: Business people in a meeting
-seo:
-  title: A Guide To User Journey Mapping
-  description: A tale about Journey Mapping
-  extra:
-    - name: 'og:type'
-      value: article
-      keyName: property
-    - name: 'og:title'
-      value: A Guide To User Journey Mapping
-      keyName: property
-    - name: 'og:description'
-      value: A tale about Journey Mapping
-      keyName: property
-    - name: 'og:image'
-      value: images/10.jpg
-      keyName: property
-      relativeUrl: true
-    - name: 'twitter:card'
-      value: summary_large_image
-    - name: 'twitter:title'
-      value: A Guide To User Journey Mapping
-    - name: 'twitter:description'
-      value: A tale about Journey Mapping
-    - name: 'twitter:image'
-      value: images/10.jpg
-      relativeUrl: true
+thumb_image: images/10_thumb.jpg
 template: post
 ---
 

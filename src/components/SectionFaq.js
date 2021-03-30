@@ -20,21 +20,21 @@ export default class SectionFaq extends React.Component {
                   )}
                 </div>
                 {_.get(section, 'faq_items', null) && (
-                <div className="faq-accordion handorgel">
+                <dl className="faq-accordion">
                   {_.map(_.get(section, 'faq_items', null), (faqitem, faqitem_idx) => (<React.Fragment key={faqitem_idx + '.2'}>
-                  <h3 key={faqitem_idx} className="faq-accordion-header handorgel__header">
-                    <button className="handorgel__trigger">
-                      <span>{_.get(faqitem, 'question', null)}</span>
-                      <span className="handorgel__icon icon-plus" />
+                  <dt key={faqitem_idx} className="accordion-header">
+                    <button className="accordion-trigger">
+                      <div className="accordion-title">{_.get(faqitem, 'question', null)}</div>
+                      <div className="accordion-icon icon-plus" />
                     </button>
-                  </h3>
-                  <div key={faqitem_idx + '.1'} className="faq-accordion-content handorgel__content">
-                    <div className="handorgel__content-inner">
+                  </dt>
+                  <dd key={faqitem_idx + '.1'} className="accordion-panel">
+                    <div className="accordion-content">
                       {markdownify(_.get(faqitem, 'answer', null))}
                     </div>
-                  </div>
+                  </dd>
                   </React.Fragment>))}
-                </div>
+                </dl>
                 )}
               </div>
             </section>

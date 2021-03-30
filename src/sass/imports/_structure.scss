@@ -1,50 +1,31 @@
-.site {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  min-height: 100vh;
-  position: relative;
-}
-
-.site-content {
-  box-sizing: border-box;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-  width: 100%;
-}
-
+/**
+ * Structure
+ * ----------------------------------------------------------------------------
+ */
 .outer {
-  padding: 3.33333em $container-padding 2.5em;
-}
-
-@media only screen and (min-width: 601px) {
-  .outer {
-    padding-bottom: 3.33333em;
-    padding-top: 4.16667em;
-  }
+  padding: 4.16667rem 4vw 3.33333rem;
 }
 
 .inner {
   margin-left: auto;
   margin-right: auto;
-  max-width: $container;
+  max-width: 1140px;
 }
 
 .inner-large {
   margin-left: auto;
   margin-right: auto;
-  max-width: $container-lg;
+  max-width: 945px;
 }
 
 .inner-medium {
   margin-left: auto;
   margin-right: auto;
-  max-width: $container-md;
+  max-width: 750px;
 }
 
 .inner-small {
   margin-left: auto;
   margin-right: auto;
-  max-width: $container-sm;
+  max-width: 555px;
 }
