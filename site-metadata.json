@@ -1,7 +1,10 @@
 {
     "title": "PickEat",
     "palette": "orange",
-    "siteUrl": "https://pickeat.netlify.app",
+    "siteUrl": "https://www.pickeat.it",
+    "titleTemplate": "%s | Pick Eat",
+    "image": "/images/Thumbnail.jpg",
+    "description": "Prenota, Ordina, Risparmia",
     "header": {
         "type": "header",
         "title": "PickEat",
@@ -79,8 +82,8 @@
         "links": [
             {
                 "type": "action",
-                "label": "🧑‍💻 With ❤️ By Nicholas Sollazzo",
-                "url": "https://sollazzo.one",
+                "label": "🧑‍💻 With ❤️ By The PickEat Team",
+                "url": "https://www.linkedin.com/company/pick-eat2020/",
                 "new_window": true
             }
         ],

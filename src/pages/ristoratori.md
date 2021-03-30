@@ -10,7 +10,7 @@ sections:
         content: >-
           Su PickEat potrai inserire i tuoi menù (*fissi e à la carte*) e
           renderli disponibili ai tuoi clienti in digitale e **consultabili
-          online** oppure tramite un **QRcode al tavolo**.
+          online** oppure tramite card NFC.
 
           Come ristoratore potrai gestire i tuoi menù scegliendo quali rendere
           visibili e in quale periodo.
@@ -42,14 +42,8 @@ sections:
         image: /images/undraw_special_event_4aj8.svg
       - title: Aumenta il turn-over del tuo ristorante
         content: >-
-          Con l'innovativo **Servizio Bolt** potrai aumentare i coperti a
-          disposizione del tuo ristorante per ogni singolo servizio.
-
-          A fronte di uno sconto concesso al tuo cliente, lui ti garantirà di
-          liberare il tavolo in **30 minuti**.
-
-          In questo modo, ogni ora potrai **aumentare i tuoi guadagni** avendo
-          il **doppio dei coperti**.
+          Grazie al preorder potrai facilmente aumentare il turnover all'interno dei tuoi locali.
+          Pickeat ti fornirà tutto il materiale per prepararti in anticipo.
         actions:
           - label: Scopri come funziona
             url: /registrati

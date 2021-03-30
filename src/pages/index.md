@@ -44,10 +44,7 @@ sections:
       - type: feature_item
         title: Usufruisci dei vantaggi PickEat
         content: |-
-          Con PickEat ti garantiamo uno **sconto minimo del 10%**
-          ogni volta che effettui un preordine; Inoltre, con
-          l'innovativo **Sconto Bolt**, potrai ricevere uno sconto ulteriore
-          se garantisci di liberare il tavolo in 30 minuti.
+          Con il preorder potrai essere servito immediatamente. Risparmierai così tanto tempo prezioso.
         image: /images/undraw_having_fun_iais.svg
         actions:
           - type: action
@@ -82,12 +79,6 @@ sections:
           problemi dei ristoratori che alla convenienza dei clienti.
         type: review_item
         avatar: /images/picPickeat.jpeg
-      - author: Nicholas Sollazzo
-        content: >-
-          Perché PickEat è la risposta Made in Italy fatta su misura per i
-          ristoratori Italiani.
-        type: review_item
-        avatar: /images/Nick.png
   - type: section_cta
     title: PickEat aiuta clienti e ristoratori
     section_id: call-to-action
@@ -139,17 +130,7 @@ sections:
           protezione nei loro confronti. Aiutaci anche tu a risollevare il mondo
           della ristorazione!
         type: faq_item
-      - question: Come funziona il servizio Bolt?
-        answer: >-
-          Il **servizio Bolt** consiste in uno **sconto del 30%*** per i clienti
-          che effettueranno il **pre-order** e che garantiranno una **permanenza
-          massima al tavolo di 30 minuti**. Utile se si hanno i minuti contati
-          (come durante le pause pranzo) o semplicemente se si è di fretta.
-
-
-          *Sarà il ristoratore a indicare lo sconto che verrà offerto al cliente
-          da un minimo del 15%.
-        type: faq_item
+      
     type: section_faq
 template: landing
 ---

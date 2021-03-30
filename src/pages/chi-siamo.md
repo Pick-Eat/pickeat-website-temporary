@@ -70,7 +70,7 @@ sections:
         image: /images/purple-hickory.jpg
       - title: Enzo Ubaldo Petrocco
         content: >-
-          ## CTO e Co-Founder
+          ## Backend Developer e Co-Founder
 
           22 anni, laureato in Ingegneria Elettronica all’UNIGE, frequenta
           Robotics Engineering. Studia chitarra classica e suona la chitarra
@@ -105,17 +105,14 @@ sections:
         actions: []
         type: feature_item
         image: /images/picPickeat.jpeg
-      - title: Nicholas Sollazzo
+      - title: Eleonora Carletti
         content: >-
-          ## COO e Co-Founder
+          ## CTO
 
-          22 anni, studente di Economia e Amministrazione delle Imprese
-          all'UniMiB con un diploma da Perito Informatico. Attualmente è un
-          Freelance e svolge diverse mansioni come sviluppatore, sales e project
-          manager.
+          24 anni, Laureata in ingegneria informatica al politecnico di Torino ed in Information and Technology engineering all'università Tongji di Shanghai. Attualmente studente di Data Science and Engineering ha voluto approfondire le sue conoscenze in questo campo confrontandosi direttamente con le aziende. L'esperienza maturata l'ha portata ad approdare in molte realtà tra cui il gigante del tech Microsoft Italia
         actions: []
         type: feature_item
-        image: /images/hero.jpg
+        image: /images/imageEle.jpg
       - title: Elena Nuara
         content: >-
           ## Business Developer
@@ -128,7 +125,7 @@ sections:
         actions: []
         type: feature_item
         image: /images/IMG_20200913_203650.jpg
-      - title: Brecia Federico
+      - title: Brescia Federico
         content: >-
           ## Front-End Developer
 
@@ -140,19 +137,17 @@ sections:
         actions: []
         type: feature_item
         image: /images/federico.jpeg
-      - title: Angela Ferrari
+      - title: Matteo Miglietta
         content: >-
-          ## Public Relations
+          ## CMO
 
-
-          23 anni, diploma liceale in Design, laureanda in Comunicazione,
-          Innovazione e Multimedialità all’UniPV. Iscritta a Comunicazione
-          Digitale, la sua  grande passione per l'innovazione, la tecnologia e
-          il web marketing la spingono a cercare sempre nuove esperienze che le
-          permettano di ampliare il proprio bagaglio professionale.
+          24 anni, Lavora in Venture Accelerator e Innovation advisor a Milano.
+          Studia Marketing e Mercati Globali a UNIMIB.
+          Ha una grande passione per l'innovazione, le startup e il digitale.
+          Rugbista per Natura
         actions: []
         type: feature_item
-        image: /images/IMG-20201218-WA0014.jpg
+        image: /images/PicMatte.jpg
     type: section_features
   - title: Scarica PickEat
     section_id: cta

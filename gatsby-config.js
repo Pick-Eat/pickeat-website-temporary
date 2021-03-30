@@ -1,5 +1,14 @@
 const siteMetadata = require('./site-metadata.json')
 
+const {
+    NODE_ENV,
+    URL: NETLIFY_SITE_URL = 'https://www.pickeat.it',
+    DEPLOY_PRIME_URL: NETLIFY_DEPLOY_URL = NETLIFY_SITE_URL,
+    CONTEXT: NETLIFY_ENV = NODE_ENV,
+} = process.env
+const isNetlifyProduction = NETLIFY_ENV === 'production'
+const siteUrl = isNetlifyProduction ? NETLIFY_SITE_URL : NETLIFY_DEPLOY_URL
+
 module.exports = {
     pathPrefix: '/',
     siteMetadata: siteMetadata,
@@ -16,6 +25,13 @@ module.exports = {
                 name: `pages`,
                 path: `${__dirname}/src/pages`
             }
+        },
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                name: `images`,
+                path: `${__dirname}/static/images`,
+            },
         },
         {
             resolve: `gatsby-plugin-sass`,
@@ -63,6 +79,50 @@ module.exports = {
                     // For all the options available, please see the additional resources below.
                     purpose: `any maskable`,
                 },
+            },
+        },
+        {
+            resolve: 'gatsby-plugin-robots-txt',
+            options: {
+                resolveEnv: () => NETLIFY_ENV,
+                env: {
+                    production: {
+                        policy: [{ userAgent: '*' }],
+                        host: 'https://www.pickeat.it',
+                        sitemap: 'https://www.pickeat.it/sitemap.xml',
+                    },
+                    'branch-deploy': {
+                        policy: [{ userAgent: '*', disallow: ['/'] }],
+                        sitemap: null,
+                        host: null,
+                    },
+                    'deploy-preview': {
+                        policy: [{ userAgent: '*', disallow: ['/'] }],
+                        sitemap: null,
+                        host: null,
+                    },
+                },
+            },
+        },
+        {
+            resolve: `gatsby-plugin-gdpr-cookies`,
+            options: {
+                googleAnalytics: {
+                    trackingId: 'UA-182731649-1', // leave empty if you want to disable the tracker
+                    cookieName: 'gatsby-gdpr-google-analytics', // default
+                    anonymize: true // default
+                },
+                googleTagManager: {
+                    trackingId: '', // leave empty if you want to disable the tracker
+                    cookieName: 'gatsby-gdpr-google-tagmanager', // default
+                    dataLayerName: 'dataLayer', // default
+                },
+                facebookPixel: {
+                    pixelId: '', // leave empty if you want to disable the tracker
+                    cookieName: 'gatsby-gdpr-facebook-pixel', // default
+                },
+                // defines the environments where the tracking should be available  - default is ["production"]
+                environments: ['production', 'development']
             },
         },
     ]
