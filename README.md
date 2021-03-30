@@ -58,6 +58,6 @@ Here's a few resources to get you started:
 
 If you need a hand, make sure to check the [Stackbit support page](https://stackbit.link/project-readme-support).
 
-## Colophon
+## Colophon  
 
 Generated at `2021-03-30T17:30:36.295Z` by Stackbit version `0.3.50`.
