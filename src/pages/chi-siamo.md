@@ -109,7 +109,12 @@ sections:
         content: >-
           ## CTO
 
-          24 anni, Laureata in ingegneria informatica al politecnico di Torino ed in Information and Technology engineering all'università Tongji di Shanghai. Attualmente studente di Data Science and Engineering ha voluto approfondire le sue conoscenze in questo campo confrontandosi direttamente con le aziende. L'esperienza maturata l'ha portata ad approdare in molte realtà tra cui il gigante del tech Microsoft Italia
+          24 anni, Laureata in ingegneria informatica al politecnico di Torino
+          ed in Information and Technology engineering all'università Tongji di
+          Shanghai. Attualmente studente di Data Science and Engineering ha
+          voluto approfondire le sue conoscenze in questo campo confrontandosi
+          direttamente con le aziende. L'esperienza maturata l'ha portata ad
+          approdare in molte realtà tra cui il gigante del tech Microsoft Italia
         actions: []
         type: feature_item
         image: /images/imageEle.jpg
@@ -125,7 +130,7 @@ sections:
         actions: []
         type: feature_item
         image: /images/IMG_20200913_203650.jpg
-      - title: Brescia Federico
+      - title: Federico Brescia
         content: >-
           ## Front-End Developer
 
@@ -142,9 +147,8 @@ sections:
           ## CMO
 
           24 anni, Lavora in Venture Accelerator e Innovation advisor a Milano.
-          Studia Marketing e Mercati Globali a UNIMIB.
-          Ha una grande passione per l'innovazione, le startup e il digitale.
-          Rugbista per Natura
+          Studia Marketing e Mercati Globali a UNIMIB. Ha una grande passione
+          per l'innovazione, le startup e il digitale. Rugbista per Natura
         actions: []
         type: feature_item
         image: /images/PicMatte.jpg
