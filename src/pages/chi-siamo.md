@@ -3,13 +3,13 @@ title: Chi Siamo
 sections:
   - title: Chi Siamo
     section_id: lorem-ipsum
-    content: >-
+    content: >
       **Pick Eat** è un progetto di **start up** nato dalla collaborazione fra
       studenti dell’Università di Genova, Politecnico di Torino e Università di
       Milano-Bicocca. Il progetto, partito a margine del **Go To Silicon Valley
       Study Tour 2020**, si è sviluppato
 
-      attraverso una serie di incontri fra il team di 5 ragazzi.
+      attraverso una serie di incontri fra il team di 9 ragazzi.
 
 
       Pick Eat cercherà di entrare nel settore della **ristorazione**,
