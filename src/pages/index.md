@@ -4,9 +4,9 @@ sections:
   - type: section_hero
     title: Mangia nel tuo ristorante preferito con uno sconto fisso
     section_id: hero
-    content: >-
+    content: >
       Sai già cosa vuoi mangiare? Ordina in anticipo nel tuo ristorante
-      preferito e noi ti garantiamo uno sconto fisso!
+      preferito e  risparmia tempo!
     actions: []
     image: /images/fierce-spinach.svg
   - type: section_features
@@ -43,8 +43,9 @@ sections:
             url: /registrati
       - type: feature_item
         title: Usufruisci dei vantaggi PickEat
-        content: |-
-          Con il preorder potrai essere servito immediatamente. Risparmierai così tanto tempo prezioso.
+        content: >-
+          Con il preorder potrai essere servito immediatamente. Risparmierai
+          così tanto tempo prezioso.
         image: /images/undraw_having_fun_iais.svg
         actions:
           - type: action
@@ -130,7 +131,6 @@ sections:
           protezione nei loro confronti. Aiutaci anche tu a risollevare il mondo
           della ristorazione!
         type: faq_item
-      
     type: section_faq
 template: landing
 ---
