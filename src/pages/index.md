@@ -8,7 +8,7 @@ sections:
       Sai già cosa vuoi mangiare? Ordina in anticipo nel tuo ristorante
       preferito e  risparmia tempo!
     actions: []
-    image: images/ws1.JPG
+    image: images/Picky2x (3).png
   - type: section_features
     title: Scopri perché ordinare con PickEat
     section_id: features
