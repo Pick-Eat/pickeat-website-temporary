@@ -36,7 +36,7 @@ export default class Body extends React.Component {
                     cookieName="gatsby-gdpr-google-analytics"
                     style={{ fontSize: "13px" }}>
                     Questo sito web memorizza i cookie sul tuo computer. Questi cookie vengono utilizzati per raccogliere informazioni su come interagite con il nostro sito web e ci permettono di ricordarti.
-                    Utilizzo queste informazioni per migliorare e personalizzare la vostra esperienza di navigazione e per analisi e metriche sui miei visitatori di questo sito web.
+                    Utilizziamo queste informazioni per migliorare e personalizzare la vostra esperienza di navigazione e per analisi e metriche sui miei visitatori di questo sito web.
                     Se rifiuti, le vostre informazioni non saranno tracciate quando visitate il mio sito web. Un singolo cookie verrà utilizzato nel vostro browser per ricordare la vostra preferenza di non essere tracciati :)
                 </CookieConsent>
             </React.Fragment>
