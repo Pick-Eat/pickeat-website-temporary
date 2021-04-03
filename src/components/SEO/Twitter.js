@@ -12,7 +12,7 @@ export default ({
         <Helmet>
             <meta name="twitter:card" content={cardType} />
             {username && <meta name="twitter:creator" content={username} />}
-            {url && <meta property="twitter:url" content="https://sollazzo.one/" />}
+            {url && <meta property="twitter:url" content=https://sollazzo.one/" />}
             {title && <meta name="twitter:title" content={title} />}
             {description && <meta name="twitter:description" content={description} />}
             {image && <meta name="twitter:image" content={image} />}
