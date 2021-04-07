@@ -2,7 +2,7 @@
 title: Home
 sections:
   - type: section_hero
-    title: 'Non mangiare, stai a dieta'
+    title: 'Non mangiare, stai a dietajygjg'
     section_id: hero
     content: >
       Sai già cosa vuoi mangiare? Ordina in anticipo nel tuo ristorante
