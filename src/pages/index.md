@@ -11,9 +11,6 @@ sections:
     image: images/home_image.svg
   - type: section_features
     section_id: features
-    subtitle: >-
-      PickEat è sempre la scelta giusta quando vuoi gustarti del buon cibo a
-      casa o al ristorante
     background: gray
     features:
       - type: feature_item
