@@ -10,7 +10,6 @@ sections:
     actions: []
     image: images/home_image.svg
   - type: section_features
-    title: Scopri perché ordinare con PickEat
     section_id: features
     subtitle: >-
       PickEat è sempre la scelta giusta quando vuoi gustarti del buon cibo a
