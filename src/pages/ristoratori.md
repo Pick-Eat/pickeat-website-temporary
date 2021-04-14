@@ -45,7 +45,8 @@ sections:
         image: /images/undraw_dashboard_nklg.svg
     type: section_features
   - type: section_cta
-    title: Migliora il tuo servizio
+    title: Entra a far parte dei primi 100 ristoranti 
+e ricevi vantaggi esclusivi per sempre!
     section_id: call-to-action
     subtitle: Cosa aspetti? Registrati ora e scopri come fare
     actions:
