@@ -11,12 +11,8 @@ sections:
     features:
       - title: Menù Digitale
         content: >-
-          Su PickEat potrai inserire i tuoi menù (*fissi e à la carte*) e
-          renderli disponibili ai tuoi clienti in digitale e **consultabili
-          online** oppure tramite card NFC.
+          Su PickEat potrai inserire i tuoi menù (fissi e à la carte) e renderli disponibili ai tuoi clienti in digitale e consultabili online oppure tramite card NFC. Come ristoratore potrai gestire i tuoi menù scegliendo quali rendere visibili e in quale periodo.
 
-          Come ristoratore potrai gestire i tuoi menù scegliendo quali rendere
-          visibili e in quale periodo.
         actions:
           - label: Scopri come funziona
             url: /registrati
