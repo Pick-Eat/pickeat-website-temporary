@@ -34,8 +34,7 @@ sections:
         image: /images/undraw_special_event_4aj8.svg
       - title: Ricevi maggiori prenotazioni
         content: >-
-          Grazie al preorder potrai facilmente aumentare il turnover all'interno
-          dei tuoi locali. Pickeat ti fornirà tutto il materiale per prepararti
+          
           in anticipo.
         actions:
           - label: Scopri come funziona
