@@ -25,7 +25,7 @@ sections:
         content: >
           Con PickEat il tuo ristorante potrà ricevere gli ordini dei tuoi clienti in anticipo, rendendo il tuo servizio più efficiente e su misura per i tuoi clienti. Il pre-order ti permetterà di organizzarti al meglio, ottimizzando il tempo e la linea di preparazione in cucina, rispondendo alle esigenze della tua clientela target. 
         actions:
-          - label: Scopri come funziona
+          - label: Richiedi PickEat
             url: /registrati
             primary: false
             new_window: true
