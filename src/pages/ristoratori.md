@@ -23,14 +23,7 @@ sections:
         image: /images/undraw_dropdown_menu_vv9j.svg
       - title: Prenotazioni online e ordini in anticipo
         content: >
-          Con PickEat il tuo ristorante potrà ricevere le prenotazioni e gli
-          ordini dei tuoi clienti in anticipo ed effettuare delle **Azioni**
-          (Accettato, Ordinato, Accomodato, Consegnato, Da Pagare) in modo che
-          il tuo servizio possa essere più efficiente.
-
-          Sapendo quando arriveranno e cosa mangeranno i tuoi clienti, potrai
-          organizzarti al meglio riducendo il loro tempo di attesa e
-          invogliandoli a ripetere l'esperienza nel tuo locale.
+          Con PickEat il tuo ristorante potrà ricevere gli ordini dei tuoi clienti in anticipo, rendendo il tuo servizio più efficiente e su misura per i tuoi clienti. Il pre-order ti permetterà di organizzarti al meglio, ottimizzando il tempo e la linea di preparazione in cucina, rispondendo alle esigenze della tua clientela target. 
         actions:
           - label: Scopri come funziona
             url: /registrati
