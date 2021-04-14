@@ -50,7 +50,7 @@ e ricevi vantaggi esclusivi per sempre!
     section_id: call-to-action
     actions:
       - type: action
-        label: Registrati Ora
+        label: Richiedi PickEat
         url: /registrati
         primary: true
   - type: section_pricing
