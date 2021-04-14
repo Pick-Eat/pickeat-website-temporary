@@ -48,7 +48,6 @@ sections:
     title: Entra a far parte dei primi 100 ristoranti 
 e ricevi vantaggi esclusivi per sempre!
     section_id: call-to-action
-    subtitle: Cosa aspetti? Registrati ora e scopri come fare
     actions:
       - type: action
         label: Registrati Ora
