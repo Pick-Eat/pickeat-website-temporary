@@ -5,7 +5,8 @@ sections:
     section_id: lorem-ipsum
     subtitle: >-
       PickEat è la scelta giusta per gestire al meglio il tuo ristorante.
-      Aumenta i coperti, riduci gli sprechi,
+      Aumenta i coperti, riduci gli sprechi e dai una spinta in più ai tuoi
+      ricavi
     background: gray
     features:
       - title: Menù Digitale
