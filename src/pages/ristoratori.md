@@ -1,7 +1,7 @@
 ---
 title: Ristoratori
 sections:
-  - title: Gestisci gli ordini con PickEat
+  - title: Gestisci gli ordini con PickEat e aumenta i tuoi ricavi
     section_id: lorem-ipsum
     subtitle: Cosa ti offre PickEat
     background: gray
