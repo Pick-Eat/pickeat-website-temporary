@@ -3,7 +3,7 @@ title: Ristoratori
 sections:
   - title: Gestisci gli ordini con PickEat e aumenta i tuoi ricavi
     section_id: lorem-ipsum
-    subtitle: PickEat è la scelta giusta
+    subtitle: PickEat è la scelta giusta per gestire al meglio
     background: gray
     features:
       - title: Menù Digitale
