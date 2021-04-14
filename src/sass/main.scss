@@ -1,7 +1,11 @@
+@font-face {
+  font-family: 'Metropolis-Extra-Light';
+  src: local('Metropolis-Extra-Light'), url(../fonts/Metropolis.extra-light.otf) format('truetype');
+}
 
 // Font.
 $font: (
-  primary: ("Nunito Sans",sans-serif)
+  primary: ("Metropolis-Extra-Light",sans-serif)
 );
 
 // Palette.
