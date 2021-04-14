@@ -43,6 +43,17 @@ sections:
             type: action
         type: feature_item
         image: /images/undraw_dashboard_nklg.svg
+        - title: Ricevi maggiori prenotazioni
+        content: >-
+          Con PickEat il tuo ristorante potrà ricevere le prenotazioni online legate al pre-order dei clienti grazie alla visibilità offerta al tuo locale dalla nostra piattaforma. Il tuo ristorante avrà un profilo che ti aiuteremo a creare e curare al meglio per attirare e ottenere sempre più clienti e aumentare i tuoi coperti e ricavi.
+        actions:
+          - label: Richiedi PickEat
+            url: /registrati
+            primary: false
+            new_window: true
+            type: action
+        type: feature_item
+        image: /images/undraw_dashboard_nklg.svg
     type: section_features
   - type: section_cta
     title: Migliora il tuo servizio
