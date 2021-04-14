@@ -45,7 +45,7 @@ sections:
         image: /images/undraw_dashboard_nklg.svg
         - title: Take Away
         content: >-
-          Con PickEat il tuo ristorante potrà ricevere le prenotazioni online legate al pre-order dei clienti grazie alla visibilità offerta al tuo locale dalla nostra piattaforma. Il tuo ristorante avrà un profilo che ti aiuteremo a creare e curare al meglio per attirare e ottenere sempre più clienti e aumentare i tuoi coperti e ricavi.
+          Con PickEat sarà possibile ricevere ordinazioni dai propri clienti per il take away, ottimizzando i propri menù disponibili per questa funzionalità. I clienti potranno ritirare il loro ordine  presso il locale o, nel caso in cui il ristorante abbia il proprio fattorino, aspettarlo comodamente a casa.
         actions:
           - label: Richiedi PickEat
             url: /registrati
