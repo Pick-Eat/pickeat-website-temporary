@@ -43,17 +43,6 @@ sections:
             type: action
         type: feature_item
         image: /images/undraw_dashboard_nklg.svg
-        - title: Take Away
-        content: >-
-          Con PickEat sarà possibile ricevere ordinazioni dai propri clienti per il take away, ottimizzando i propri menù disponibili per questa funzionalità. I clienti potranno ritirare il loro ordine  presso il locale o, nel caso in cui il ristorante abbia il proprio fattorino, aspettarlo comodamente a casa.
-        actions:
-          - label: Richiedi PickEat
-            url: /registrati
-            primary: false
-            new_window: true
-            type: action
-        type: feature_item
-        image: /images/undraw_dashboard_nklg.svg
     type: section_features
   - type: section_cta
     title: Migliora il tuo servizio
