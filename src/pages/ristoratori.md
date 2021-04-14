@@ -32,7 +32,7 @@ sections:
             type: action
         type: feature_item
         image: /images/undraw_special_event_4aj8.svg
-      - title: Aumenta il turn-over del tuo ristorante
+      - title: Ricevi maggiori prenotazioni
         content: >-
           Grazie al preorder potrai facilmente aumentare il turnover all'interno
           dei tuoi locali. Pickeat ti fornirà tutto il materiale per prepararti
